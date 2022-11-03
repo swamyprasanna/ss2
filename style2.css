@@ -1,0 +1,57 @@
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+.top{
+    display:static;
+    position: fixed;
+    top: 0;
+}
+.top {
+    background-color: black;
+}
+
+nav{
+    background-color: black;
+    position: static;
+    top: 0;
+}
+nav ul{
+    display: flex;
+    float:right;
+    position: static;
+    top: 0;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:o 5 px;
+    position: static;
+    top: 0;
+}
+nav ul li a{
+    color: aliceblue;
+    padding: 20px;
+    text-decoration: solid;
+    border-radius: 3px;
+}
+
+a:hover{
+    background: grey;
+    transition: 0.5s;
+}
+.fade img{
+    opacity: 0.5;
+}
+.textbox {
+    text-align: left;
+    font-size: 20px;
+}   
+.pic{
+    display: flex;
+    justify-content: right;
+}
+img{
+    opacity: 0.7;
+}
